@@ -4,6 +4,8 @@ import { Text, View, TextInput, StyleSheet, TouchableOpacity } from "react-nativ
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
 import DropdownButton from "./DropdownButton";
 
+// Main
+
 export default function Dropdown(props) {
     
     const [active, setActive] = useState(false);
